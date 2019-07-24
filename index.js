@@ -43,7 +43,12 @@ module.exports = ({
 
   const db = knex({
     client: clientType,
-    connection
+    acquireConnectionTimeout: 10 * 1000,
+    connection,
+    pool: {
+      min: 2,
+      max: 25,
+    }
   })
 
   const dbInit = (model) => {
