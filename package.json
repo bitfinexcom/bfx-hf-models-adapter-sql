@@ -1,6 +1,6 @@
 {
   "name": "bfx-hf-models-adapter-sql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SQL adapter for the HF database",
   "main": "index.js",
   "directories": {
