@@ -15,3 +15,5 @@ _test_candle_data.json
 !./db.keep
 /db/*.json
 knexfile.js
+tags
+.nyc_output
